@@ -8,7 +8,7 @@ export default function Banner() {
 
   return (
     <section className="bg-[#F8FAFC] px-6 py-16">
-      <div className="max-w-7xl mx-auto flex flex-col items-center text-center">
+      <div className="max-w-7xl mx-auto flex flex-col items-center text-center border-b-2 border-[#E9E9E9] pb-16">
         {/* Heading */}
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">
           Friends to keep close in your life
@@ -30,7 +30,7 @@ export default function Banner() {
           {stats.map((stat) => (
             <div
               key={stat.label}
-              className="bg-white border border-[#E9E9E9] rounded-xl px-6 py-6 flex flex-col items-center gap-2"
+              className="bg-white border border-[#E9E9E9] rounded-2xl px-6 py-6 flex flex-col items-center gap-2"
             >
               <span className="text-3xl sm:text-4xl font-bold text-[#244D3F]">
                 {stat.value}
