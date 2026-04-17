@@ -32,13 +32,13 @@ The app focuses on helping users nurture friendships by reminding them when to r
 
 - Log interactions (Call, Text, Video) with friends
 - Filter timeline by interaction type
-- Data is stored using localStorage for persistence :contentReference
+- Data is stored using localStorage for persistence
 
 ### 3. 📈 Analytics & Insights
 
 - Visual breakdown of interactions using charts
 - Understand communication patterns
-- Helps improve consistency in maintaining relationships :contentReference
+- Helps improve consistency in maintaining relationships
 
 ---
 
@@ -48,7 +48,7 @@ The app focuses on helping users nurture friendships by reminding them when to r
 - Friend Details Page (Individual tracking & check-ins)
 - Timeline Page (Interaction history)
 - Stats Page (Analytics dashboard)
-- 404 Not Found Page for invalid routes :contentReference
+- 404 Not Found Page for invalid routes
 
 ---
 
