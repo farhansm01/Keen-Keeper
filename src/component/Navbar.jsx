@@ -13,7 +13,7 @@ export default function Navbar() {
     }`;
 
   return (
-    <nav className="bg-white border-b border-[#E9E9E9] sticky top-0 z-50">
+    <nav className="bg-white border-b border-[#E9E9E9] ">
       <div className="w-full px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <NavLink to="/" className="flex items-center shrink-0">
