@@ -31,7 +31,7 @@ const Timeline = () => {
           {/* Trigger */}
           <div
             onClick={() => setIsOpen(!isOpen)}
-            className="flex justify-between items-center px-5 py-3 rounded-2xl border border-gray-200 bg-gray-50 text-gray-600 shadow-sm cursor-pointer"
+            className="flex justify-between items-center px-5 py-3 rounded border border-gray-200 bg-gray-50 text-gray-600 shadow-sm cursor-pointer"
           >
             <span>{filter === "All" ? "Filter timeline" : filter}</span>
             <FiChevronDown
