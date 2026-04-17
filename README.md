@@ -1,16 +1,59 @@
-# React + Vite
+# 🌿 KeenKeeper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Description
 
-Currently, two official plugins are available:
+KeenKeeper is a relationship management web application that helps users keep track of meaningful connections in their life. It allows users to monitor interactions, stay consistent with communication, and visualize their social activity through timelines and analytics.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The app focuses on helping users nurture friendships by reminding them when to reconnect and logging interactions like calls, texts, and video chats.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Technologies Used
 
-## Expanding the ESLint configuration
+- React.js
+- React Router DOM
+- Context API (State Management)
+- Tailwind CSS
+- Recharts (for data visualization)
+- React Icons
+- LocalStorage (for data persistence)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Key Features
+
+### 1. 📊 Friendship Tracking Dashboard
+
+- View all friends with their current status (On Track, Almost Due, Overdue)
+- Displays days since last contact and relationship tags
+- Clean and responsive UI for easy navigation
+
+### 2. 🕒 Interaction Timeline System
+
+- Log interactions (Call, Text, Video) with friends
+- Filter timeline by interaction type
+- Data is stored using localStorage for persistence :contentReference[oaicite:0]{index=0}
+
+### 3. 📈 Analytics & Insights
+
+- Visual breakdown of interactions using charts
+- Understand communication patterns
+- Helps improve consistency in maintaining relationships :contentReference[oaicite:1]{index=1}
+
+---
+
+## 🧭 Routing Structure
+
+- Home Page (Friends Overview)
+- Friend Details Page (Individual tracking & check-ins)
+- Timeline Page (Interaction history)
+- Stats Page (Analytics dashboard)
+- 404 Not Found Page for invalid routes :contentReference[oaicite:2]{index=2}
+
+---
+
+## 👨‍💻 Author
+
+**Farhan Sadique Mohee**
+
+---

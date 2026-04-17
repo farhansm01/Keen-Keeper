@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
 import FrinedDetails from "./pages/FriendDetails";
 import Home from "./pages/Home.jsx";
+import NotFound from "./pages/NotFound.jsx";
 import Stats from "./pages/Stats";
 import Timeline from "./pages/Timeline";
 
@@ -26,6 +27,7 @@ const router = createBrowserRouter([
       },
     ],
   },
+  { path: "*", Component: NotFound },
 ]);
 
 export default router;
