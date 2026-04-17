@@ -22,6 +22,9 @@ const Home = () => {
   return (
     <div className="bg-[#F8FAFC] pb-20">
       <Banner />
+      <h2 className="text-center text-[#244D3F] text-3xl mb-4 font-semibold">
+        Your Friends
+      </h2>
       <div className="max-w-7xl mx-4 lg:mx-auto gap-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {friends.map((friend) => (
           <FriendCard key={friend.id} friend={friend} />

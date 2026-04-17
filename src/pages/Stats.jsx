@@ -65,7 +65,7 @@ const Stats = () => {
       <h1 className="text-3xl font-bold mb-6">Friendship Analytics</h1>
 
       <div className="bg-white rounded-2xl p-6 shadow-sm">
-        <p className="text font-bold  text-gray-800 mb-4">
+        <p className="text font-bold  text-gray-600 mb-4">
           By Interaction Type
         </p>
 

@@ -26,6 +26,7 @@ export default function FriendDetails() {
     status,
     tags,
     bio,
+    email,
   } = friend;
 
   const handleCheckIn = (type) => {
@@ -36,7 +37,7 @@ export default function FriendDetails() {
       date: new Date().toISOString(),
       title: `${type} with ${name}`,
     });
-    toast.success(`${type} logged with ${name}!`);
+    toast.success(`${type} with ${name}!`);
   };
 
   const statusStyle = {
@@ -47,7 +48,7 @@ export default function FriendDetails() {
 
   return (
     <div className="bg-[#F8FAFC] min-h-screen px-4 py-6 sm:px-6">
-      <ToastContainer position="top-right" autoClose={3000} />
+      <ToastContainer position="top-center" autoClose={3000} />
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* LEFT */}
         <div className="space-y-4">
@@ -80,7 +81,7 @@ export default function FriendDetails() {
             </div>
 
             <p className="text-sm text-gray-500 mt-3 italic">"{bio}"</p>
-            <p className="text-xs text-gray-400 mt-1">Preferred: email</p>
+            <p className="text-xs text-gray-400 mt-1">Preferred: {email}</p>
           </div>
 
           <div className="space-y-2">

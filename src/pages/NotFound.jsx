@@ -14,11 +14,6 @@ const NotFound = () => {
           Page Not Found
         </h2>
 
-        <p className="text-sm text-gray-400 mb-8">
-          Looks like this friendship doesn't exist yet. The page you're looking
-          for has gone quiet.
-        </p>
-
         <button
           onClick={() => navigate("/")}
           className="w-full bg-[#244D3F] text-white font-semibold py-2.5 rounded-xl hover:bg-[#1a3a2e] transition-colors"

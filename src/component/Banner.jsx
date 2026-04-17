@@ -1,7 +1,7 @@
 export default function Banner() {
   const stats = [
     { value: 10, label: "Total Friends" },
-    { value: 3, label: "On Track" },
+    { value: 4, label: "On Track" },
     { value: 6, label: "Need Attention" },
     { value: 12, label: "Interactions This Month" },
   ];
