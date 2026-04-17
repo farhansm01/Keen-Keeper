@@ -1,5 +1,13 @@
+import { Outlet } from "react-router-dom";
+import Navbar from "../component/Navbar";
+
 const MainLayout = () => {
-  return <div>this is main layout</div>;
+  return (
+    <>
+      <Navbar />
+      <Outlet />
+    </>
+  );
 };
 
 export default MainLayout;
